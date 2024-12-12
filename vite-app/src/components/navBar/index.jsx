@@ -47,7 +47,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar_container">
           <Link to={"/"} className="navbar_container_logo">
-            <FaReact size={30} />
+          <img src="/img/logo.png" alt="Logo" className="navbar_container_logo_image" />
           </Link>
         </div>
         <ul className={`navbar_container_menu ${toggleIcon ? "active" : ""} `}>

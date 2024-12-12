@@ -21,6 +21,14 @@
       cursor: pointer;
     }
 
+    &_logo_image{
+      display: flex;
+      width: 72px;
+      height: auto;
+    }
+  
+
+
     &_menu {
       display: flex;
       list-style: none;
